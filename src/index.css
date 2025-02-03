@@ -27,3 +27,16 @@ ul {
 li {
   margin-bottom: 0.5em;
 }
+
+
+/* Headerの編集 */
+#header { 
+  display: flex;
+  justify-content: center;
+}
+
+/* TaskFormの編集 */
+#taskForm{
+  display: flex;
+  justify-content: center;
+}

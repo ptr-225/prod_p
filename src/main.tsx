@@ -1,13 +1,21 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
-import { App } from "./App";
-import './index.css';
+import { TaskForm } from "./TaskForm";
+import { Header } from "./header";
+import "./index.css";
 
-const root = createRoot( document.getElementById('root') as Element);
+const taskForm = createRoot(document.getElementById("taskForm") as Element);
+const header = createRoot(document.getElementById("header") as Element);
 
-root.render(
+taskForm.render(
   <StrictMode>
-    <App />
+    <TaskForm />
+  </StrictMode>
+);
+
+header.render(
+  <StrictMode>
+    <Header />
   </StrictMode>
 );
