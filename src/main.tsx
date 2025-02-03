@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
 import { TaskForm } from "./TaskForm";
-import { Header } from "./header";
+import { Header } from "./Header";
 import "./index.css";
 
 const taskForm = createRoot(document.getElementById("taskForm") as Element);

@@ -28,11 +28,20 @@ li {
   margin-bottom: 0.5em;
 }
 
+/* 初期化 */
+body{
+  margin: 0;
+}
+
 
 /* Headerの編集 */
 #header { 
   display: flex;
   justify-content: center;
+  background-color: #f0f8ff;
+  margin-bottom: 3rem;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0px 5px 10px 0px #c0c0c0, inset 0px -5px 10px 0px #dcdcdc;
 }
 
 /* TaskFormの編集 */

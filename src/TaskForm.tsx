@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 type Todo = {
-  value: string;
+  value : string;
 };
 
 export const TaskForm = () => {
@@ -41,6 +41,7 @@ export const TaskForm = () => {
           onSubmit={(e) => e.preventDefault()}
         />
       </form>
+      <p>{text}</p>
       <p>im using react now</p>
     </div>
   );
